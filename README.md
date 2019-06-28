@@ -3,14 +3,12 @@
 
 Table S1. List of the SSR markers used for marker-assisted selection in breeding of Suzumaru-R.
 
+###########
 
 Ogiso-Tanaka E, Kurosaki H, Yamashita Y, Takeuchi T, Taguchi-Shiobara F and Hajika M. (2019)
 Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing,
 NARO?????? (in preparation)
 
-
-
-(補助資料）
 
 小木曽映里, 黒崎英樹, 山下陽子, 竹内徹, 田口文緒, 羽鹿牧太 (2019)
 ゲノムから見た「スズマル」と「スズマルR」の同質性. 農研機構研究報告 (投稿準備中）
