@@ -1,6 +1,9 @@
 # Suzumaru_vs_Suzumaru-R
 Supplementary information
 
+Table S1. List of the SSR markers used for marker-assisted selection in breeding of Suzumaru-R.
+
+
 Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing,
 
 Eri OGISO-TANAKA 1＊, Hideki KUROSAKI2, Yoko YAMASHITA3, Toru TAKEUCHI 3, Fumio TAGUCHI-SHIOBARA1 and Makita HAJIKA1
