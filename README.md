@@ -1,5 +1,5 @@
-# Suzumaru_vs_Suzumaru-R
-Supplementary information
+# Supplementary information
+
 
 Table S1. List of the SSR markers used for marker-assisted selection in breeding of Suzumaru-R.
 
