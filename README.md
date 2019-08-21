@@ -2,6 +2,7 @@
 
 
 Table S1. List of the SSR markers used for marker-assisted selection in breeding of Suzumaru-R.
+
 Table S2. List of polymorphic sites between Suzumaru and Suzumaru R.
 
 ###########
