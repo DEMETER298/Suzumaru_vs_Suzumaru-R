@@ -13,4 +13,4 @@ Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequenc
 
 
 小木曽映里, 黒崎英樹, 山下陽子, 竹内徹, 田口文緒, 羽鹿牧太 (2019)
-ゲノムから見た「スズマル」と「スズマルR」の同質性. 農研機構研究報告 (投稿準備中）
+ゲノムから見た「スズマル」と「スズマルR」の同質性. 農研機構研究報告 (リバイス中）
