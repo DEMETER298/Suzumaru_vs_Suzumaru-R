@@ -6,26 +6,30 @@ Table S1. List of the SSR markers used for marker-assisted selection in breeding
 Table S2. List of polymorphic sites between Suzumaru and Suzumaru R.
 
 ## Supplementary Method (解析の方法について) 
-* SCN抵抗性のマーカーと解析
+* SCN抵抗性のマーカーと解析 <Br>
 「スズマルR」育成時, SCN抵抗性をマーカーで選抜するためにSCN抵抗性遺伝子に連鎖したDNAマーカーを作成した.　　
 rhg1, rhg2, およびRhg4抵抗性遺伝子の供与親として利用されるスズヒメ(rhg1s, rhg2s, Rhg4 : レース1抵抗性), ゲテンシラズ(rhg1g, rhg2g : レース3抵抗性)の各抵抗性遺伝子型を区別するDNAマーカーとして, 1抵抗性につき3 つのプライマーをPCR 反応液中に同時に混合しPCRを行うことでPCR産物のサイズの違いから遺伝子型を判定できる共優性マーカーを作成し (Table 1), rhg1s, rhg2gおよびRhg4を選抜した. PCR条件は以下の通りである. 
-PCR条件 
-種子由来DNA 1uL　　
-10 x buffer 1 uL　　
-dNTP (10mM) 0.8uL　　
-Qiagen HotStarTaq 0.05L　　
-プライマー1~3 (20M) 各0.1uL　
-最終液量が10uLになるように滅菌水を加えよく混合
+  
+  
+PCR条件 <Br> 
+種子由来DNA 1uL　　 <Br>
+10 x buffer 1 uL　　 <Br>
+dNTP (10mM) 0.8uL　　 <Br>
+Qiagen HotStarTaq 0.05L　 <Br>　
+プライマー1~3 (20M) 各0.1uL　 <Br>
+最終液量が10uLになるように滅菌水を加えよく混合 <Br>
 
-PCR の反応条件
-95℃で15 分間　　
-94℃・30 秒間　　
-55℃・30 秒間　　
-72℃・2分間　　
-x35サイクル
-に72℃・5分間インキュベート後低温保存.
 
-遺伝子型の確認　　
+PCR の反応条件 <Br>
+95℃で15 分間　　 <Br>
+94℃・30 秒間　　 <Br>
+55℃・30 秒間　　 <Br>
+72℃・2分間　　 <Br>
+x35サイクル    <Br>
+に72℃・5分間インキュベート後低温保存. <Br>
+  
+
+遺伝子型の確認　　 <Br>
 PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサイズ(抵抗性型が分子量が大きい)とバンド本数(へテロでは2本のバンドを検出)を元に遺伝子型を判定した. 
 
 ＊ 「スズマル」および「スズマルR」間の遺伝的背景同質性比較
