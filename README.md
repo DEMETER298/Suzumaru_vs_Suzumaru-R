@@ -40,14 +40,14 @@ PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサ
 <br>
 <br>
 ***
-ゲノムから見た「スズマル」と「スズマルR」の同質性  
+#### ゲノムから見た「スズマル」と「スズマルR」の同質性  
 小木曽映里<sup>1＊</sup>, 竹内徹<sup>2</sup> 山下陽子<sup>2</sup>, 黒崎英樹<sup>2</sup>, 田口文緒<sup>1</sup>, 羽鹿牧太<sup>1</sup>  
 農研機構研究報告 (リバイス中）  
 <sup>1</sup>農業・食品産業技術総合研究機構次世代作物開発研究センター  
 <sup>2</sup>北海道立総合研究機構農業研究本部中央農業試験場
 <br>
 <br>
-Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing  
+#### Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing  
 Ogiso-Tanaka E<sup>1＊</sup>, Takeuchi T<sup>2</sup>, Yamashita Y<sup>2</sup>, Kurosaki H<sup>2</sup>, Taguchi-Shiobara F<sup>1</sup> and Hajika M<sup>1</sup>. (in submitted)  
   <sup>1</sup> Institute of Crop Science, National Agriculture and Food Research Organization (NARO), Kannondai, Tsukuba, Ibaraki 305-8518, Japan  
   <sup>2</sup> Agricultural Research Department Central Agricultural Experiment station, Hokkaido Research Origanization, Naganuma, Yubari, Hokkaido 069-1395 Japan  
