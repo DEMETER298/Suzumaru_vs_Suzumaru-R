@@ -50,7 +50,7 @@ PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサ
 Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing  
 Ogiso-Tanaka E<sup>1＊</sup>, Takeuchi T<sup>2</sup>, Yamashita Y<sup>2</sup>, Kurosaki H<sup>2</sup>, Taguchi-Shiobara F<sup>1＊</sup> and Hajika M<sup>1＊</sup>. (in submitted)  
   <sup>1</sup> Institute of Crop Science, National Agriculture and Food Research Organization (NARO), Kannondai, Tsukuba, Ibaraki 305-8518, Japan  
-  <sup>2</sup Agricultural Research Department Central Agricultural Experiment station, Hokkaido Research Origanization, Naganuma, Yubari, Hokkaido 069-1395 Japan  
+  <sup>2</sup> Agricultural Research Department Central Agricultural Experiment station, Hokkaido Research Origanization, Naganuma, Yubari, Hokkaido 069-1395 Japan  
 
 
 
