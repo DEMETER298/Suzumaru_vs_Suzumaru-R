@@ -12,11 +12,11 @@ rhg1, rhg2, およびRhg4抵抗性遺伝子の供与親として利用される�
   
   
 * PCR条件 <Br> 
-種子由来DNA 1uL　　 <Br>
-10 x buffer 1 uL　　 <Br>
-dNTP (10mM) 0.8uL　　 <Br>
-Qiagen HotStarTaq 0.05L　 <Br>　
-プライマー1~3 (20M) 各0.1uL　 <Br>
+種子由来DNA            1  uL　　 <Br>
+10 x buffer           1  uL　　 <Br>
+dNTP (10mM)           0.8uL　　 <Br>
+Qiagen HotStarTaq     0.05uL　 <Br>　
+プライマー1~3 (20uM) 各0.1uL　 <Br>
 最終液量が10uLになるように滅菌水を加えよく混合 <Br>
 
 
@@ -39,6 +39,7 @@ PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサ
 「スズマル」および「スズマルR」の葉および種子からゲノムDNAを抽出し, 150bpペアエンドでHiSeq X (イルミナ社)による全ゲノムシーケンスを実施し, それぞれ4.4Gb (14.8Mペアエンドリード, リード深度x4.4 )および5.0Gb (16.7Mペアエンドリード, リード深度x4.5 )の配列情報をfastqファイルとして取得し，前処理として、[trimmomatic-0.30](http://www.usadellab.org/cms/index.php?page=trimmomatic) (Bolger et al. 2014)を用いて低品質配列やアダプター配列などを除去した。その後, BWA (Li and Durbin 2009)を用いてWilliams 82のダイズ参照配列 Soybean reference genome version 2.0 [Glyma. Wm82.a2/Gmax275](http://genome.jgi.doe.gov/pages/dynamicOrganismDownload.jsf?organism=Phytozome#) (ダウンロード日： 2015年5月15日)に処理したリードをマッピングし, [Picard v2.7.1](http://broadinstitute.github.io/picard/) を用いて重複リードを除去した。最終的に前処理後のリードのうち, 「スズマル」で98.4% (26,682,197リード, 13.3Mペアエンドリード)、「スズマルR」で99.4% (23,483,095リード, 11.7Mペアエンドリード)が参照ゲノムにマッピングされた. 5本以上のリードでカバーされたゲノム領域の被覆率は, 「スズマル」および「スズマルR」でそれぞれ89.65%および88.1%(scaffoldを除いた染色体の被覆率は90.4%および88.9%)であった. [GATK v.3.7.0](https://software.broadinstitute.org/gatk/) (McKenna et al. 2010)の [RealignerTargetCreator](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_indels_RealignerTargetCreator.php), [IndelRealigner](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_indels_IndelRealigner.php)を用いてリードを再アラインメント後[HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_haplotypecaller_HaplotypeCaller.php)を用いて参照ゲノム配列に対する両品種の多型を検出した. 5本以上のリードでカバーされ, かつクオリティスコアが100以上のサイトを両品種で抽出し, さらに両品種間で多型が見られるサイトを抽出後, ヘテロやマルチアリルが検出されたサイトを除いた合計12,277サイトを解析に使用した.  
 <br>
 <br>
+***
 Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing  
 Ogiso-Tanaka E, Takeuchi T, Yamashita Y, Kurosaki H, Taguchi-Shiobara F and Hajika M. (2019)  
 (in submitted)  
