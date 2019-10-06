@@ -39,7 +39,7 @@ PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサ
 「スズマル」および「スズマルR」の葉および種子からゲノムDNAを抽出し, 150bpペアエンドでHiSeq X (イルミナ社)による全ゲノムシーケンスを実施し, それぞれ4.4Gb (14.8Mペアエンドリード, リード深度x4.4 )および5.0Gb (16.7Mペアエンドリード, リード深度x4.5 )の配列情報をfastqファイルとして取得し，前処理として、[trimmomatic-0.30](http://www.usadellab.org/cms/index.php?page=trimmomatic) (Bolger et al. 2014)を用いて低品質配列やアダプター配列などを除去した。その後, BWA (Li and Durbin 2009)を用いてWilliams 82のダイズ参照配列 Soybean reference genome version 2.0 [Glyma. Wm82.a2/Gmax275](http://genome.jgi.doe.gov/pages/dynamicOrganismDownload.jsf?organism=Phytozome#) (ダウンロード日： 2015年5月15日)に処理したリードをマッピングし, [Picard v2.7.1](http://broadinstitute.github.io/picard/) を用いて重複リードを除去した。最終的に前処理後のリードのうち, 「スズマル」で98.4% (26,682,197リード, 13.3Mペアエンドリード)、「スズマルR」で99.4% (23,483,095リード, 11.7Mペアエンドリード)が参照ゲノムにマッピングされた. 5本以上のリードでカバーされたゲノム領域の被覆率は, 「スズマル」および「スズマルR」でそれぞれ89.65%および88.1%(scaffoldを除いた染色体の被覆率は90.4%および88.9%)であった. [GATK v.3.7.0](https://software.broadinstitute.org/gatk/) (McKenna et al. 2010)の [RealignerTargetCreator](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_indels_RealignerTargetCreator.php), [IndelRealigner](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_indels_IndelRealigner.php)を用いてリードを再アラインメント後[HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_haplotypecaller_HaplotypeCaller.php)を用いて参照ゲノム配列に対する両品種の多型を検出した. 5本以上のリードでカバーされ, かつクオリティスコアが100以上のサイトを両品種で抽出し, さらに両品種間で多型が見られるサイトを抽出後, ヘテロやマルチアリルが検出されたサイトを除いた合計12,277サイトを解析に使用した.  
 <br>
 <br>
-***<sup>上付き</sup>
+***
 ゲノムから見た「スズマル」と「スズマルR」の同質性  
 小木曽映里<sup>1＊</sup>, 竹内徹<sup>2</sup> 山下陽子<sup>2</sup>, 黒崎英樹<sup>2</sup>, 田口文緒<sup>1</sup>, 羽鹿牧太<sup>1</sup>  
 農研機構研究報告 (リバイス中）  
@@ -48,7 +48,7 @@ PCR産物の一部を2%アガロースゲルで電気泳動をし、バンドサ
 <br>
 <br>
 Identity of “Suzumaru” and “Suzumaru-R” revealed by whole genome sequencing  
-Ogiso-Tanaka E<sup>1＊</sup>, Takeuchi T<sup>2</sup>, Yamashita Y<sup>2</sup>, Kurosaki H<sup>2</sup>, Taguchi-Shiobara F<sup>1＊</sup> and Hajika M<sup>1＊</sup>. (in submitted)  
+Ogiso-Tanaka E<sup>1＊</sup>, Takeuchi T<sup>2</sup>, Yamashita Y<sup>2</sup>, Kurosaki H<sup>2</sup>, Taguchi-Shiobara F<sup>1</sup> and Hajika M<sup>1</sup>. (in submitted)  
   <sup>1</sup> Institute of Crop Science, National Agriculture and Food Research Organization (NARO), Kannondai, Tsukuba, Ibaraki 305-8518, Japan  
   <sup>2</sup> Agricultural Research Department Central Agricultural Experiment station, Hokkaido Research Origanization, Naganuma, Yubari, Hokkaido 069-1395 Japan  
 
